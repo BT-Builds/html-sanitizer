@@ -6,7 +6,7 @@ from typing import Optional, List
 
 app = FastAPI(title="HTML Sanitizer API", version="1.0.0")
 
-API_KEY = os.environ.get("API_KEY", "html-sanitizer-key-change-me")
+API_KEY=os.env...Y", "html-sanitizer-key-change-me")
 
 ALLOWED_TAGS = [
     "a", "abbr", "article", "b", "blockquote", "br", "caption", "cite", "code",
